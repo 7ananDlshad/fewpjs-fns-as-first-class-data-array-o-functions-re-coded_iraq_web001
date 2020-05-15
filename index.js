@@ -37,7 +37,7 @@ return msg;
 const routine =[wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed,routine){
-  for(let i=0; i<routine.length; i++){
+  for(let i=0; i<5; i++){
     let result= routine[i](dogName,dogBreed);
   }
   return result;
